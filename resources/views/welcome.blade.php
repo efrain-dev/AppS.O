@@ -16,7 +16,7 @@
     <meta name="keywords" content="">
     <meta name="team" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="icon" type="image/png" href="{{asset('imagenes/so.jpg')}}" />
+    <link rel="icon" type="image/png" href="{{asset('imagenes/so.jpg')}}"/>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
@@ -93,17 +93,48 @@
 <section id="feature" data-stellar-background-ratio="0.5">
     <div class="container">
 
-                <div class="carousel-item active">
-                    <img src="{{asset('imagenes/tarjeta_intel.jpg')}}" style="height: 80vh" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block text-capitalize" style="color: black">
-                        <h5>Nuevas graficas de intel</h5>
-                        <p style="color: black">La arquitectura gráfica Intel Xe será el nuevo intento de la compañía azul para competir directamente contra AMD y NVIDIA en todos los segmentos. Intel ha priorizado esta arquitectura inicialmente hacia el segmento de los gráficos integrados para portátiles, y los primeros productos que la llevarán serán los procesadores Tiger Lake (Iris Xe Graphics) y los chips DG1 dedicados para portátiles.</p>
-                        <a href="https://hardzone.es/noticias/tarjetas-graficas/tarjetas-graficas-intel-xe-lanzamiento" style="color: blue" target="_blank"> Mas informacion</a>
-                        <link >
+        <div class="col-md-12 col-sm-4">
+            <div class="team-thumb">
+                <img src="{{asset('imagenes/tarjeta_intel.jpg')}}" style="size: auto" class="d-block w-100" alt="...">
+                <div class="team-info team-thumb-up">
+                    <h5>Nuevas graficas de intel</h5>
+                    <p style="color: black">La arquitectura gráfica Intel Xe será el nuevo intento de la compañía azul
+                        para competir directamente contra AMD y NVIDIA en todos los segmentos. Intel ha priorizado esta
+                        arquitectura inicialmente hacia el segmento de los gráficos integrados para portátiles, y los
+                        primeros productos que la llevarán serán los procesadores Tiger Lake (Iris Xe Graphics) y los
+                        chips DG1 dedicados para portátiles.</p>
+                    <a href="https://hardzone.es/noticias/tarjetas-graficas/tarjetas-graficas-intel-xe-lanzamiento"
+                       style="color: blue" target="_blank"> Mas informacion</a>
+                    <link>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-4">
+            <div class="team-thumb">
+                <img src="{{asset('imagenes/ARM.jpeg')}}" style="size: auto" class="d-block w-100" alt="...">
+                <div class="team-info team-thumb-up">
+                    <h5>La compra de ARM por Nvidia es un antes y un después en la industria de los chips, pero esconde un mar de dudas</h5>
+                    <p style="color: black">La pasada semana se anunciaban, el mismo día, dos grandes operaciones en la esfera tecnológica. Oracle amanecía el lunes con acuerdo por el TikTok estadounidense y Nvidia anunciaba a bombo y platillo la adquisición de ARM. Ninguna de ellas resulta en lo que cabría esperar en un primer momento: Oracle finalmente apunta a ser un mero proveedor para TikTok, dejando fuera toda compra –y su codiciado algoritmo por las restricciones impuestas desde China–, mientras que Nvidia parece adoptar el modelo de negocio de ARM, dando la sensación de que la comprada era ella.</p>
+                    <a href="https://hipertextual.com/2020/09/nvidia-compra-arm-chips"
+                       style="color: blue" target="_blank"> Mas informacion</a>
+                    <link>
+
+                </div>
+            </div>
+        </div>        <div class="col-md-12 col-sm-4">
+            <div class="team-thumb">
+                <div class="team-info team-thumb-up">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/S-NCGgLDz9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
                     </div>
-                </div>
+                    <h2 style="align-items: center;">Un video bastante interesante sobre procesadores</h2>
 
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -137,7 +168,8 @@
                         <small>Programador</small>
                         <p>Cuenta con una larga experiencia en programacion</p>
                     </div>
-                    <img src="{{asset('imagenes/foto_edwin.jfif')}}" style="height: 45vh" class="img-responsive" alt="Catherine Soft">
+                    <img src="{{asset('imagenes/foto_edwin.jfif')}}" style="height: 45vh" class="img-responsive"
+                         alt="Catherine Soft">
                 </div>
             </div>
 
@@ -166,8 +198,6 @@
 </section>
 
 
-
-
 <!-- FOOTER -->
 <footer id="footer" data-stellar-background-ratio="0.5">
     <div class="container">
@@ -180,9 +210,9 @@
 
                 <div class="col-md-6 col-sm-6">
                     <ul class="social-icon">
-                        <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                        <li><a href="#" class="fa fa-twitter"></a></li>
-                        <li><a href="#" class="fa fa-instagram"></a></li>
+                        <li><a href="https://www.facebook.com/cesarito.miron" class="fa fa-facebook-square" attr="facebook icon" target="_blank"></a></li>
+                        <li><a href="https://soundcloud.com/lksinsgt/brinca-remix" class="fa fa-soundcloud" target="_blank"></a></li>
+                        <li><a href="https://www.instagram.com/lksiins_/" class="fa fa-instagram" target="_blank"></a></li>
                     </ul>
                 </div>
             </div>
